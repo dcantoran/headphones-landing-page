@@ -1,0 +1,63 @@
+footer {
+    background: rgb(102, 94, 238);
+    padding: 80px 0 20px 0;
+    text-align: center;
+    color: white;
+}
+
+footer h1 {
+    font-size: 3rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: white;
+}
+
+footer h1 span {
+    font-size: 3.1rem;
+    font-weight: 600;
+    color: rgb(252, 167, 72)
+}
+
+/* footer .menu li  */
+
+footer .menu li{
+    display: inline-block;
+    padding: 35px 20px 35px 20px;
+}
+
+footer .menu a {
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+footer p {
+    font-size: .8rem;
+    font-weight: 300;
+}
+
+footer .social-media li{
+    display: inline-block;
+    padding: 20px 10px;
+
+}
+
+footer .social-media li a {
+    color: rgb(169, 165, 234);
+    font-size: 1.3rem;
+}
+
+/* Laptops */
+@media only screen and (max-width: 1215px) {
+   
+}
+/* Tablets */
+@media only screen and (max-width: 1023px) {
+   
+}
+/* Mobile */
+@media only screen and (max-width: 768px) {
+    
+}

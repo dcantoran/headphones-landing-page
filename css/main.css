@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,700&display=swap');
+@import "reset.css";
+@import "landing-page/header.css";
+@import "landing-page/top-jumbo.css";
+@import "landing-page/design-by.css";
+@import "landing-page/color-collection.css";
+@import "landing-page/blueprint.css";
+@import "landing-page/latest.css";
+@import "landing-page/footer.css";
+
+
+/* 
+#6066F2 - dark-purple
+#E0C1D8 - yogurt
+#A391EE - light-purple
+#F2913D - orange
+#FEFEFE - white
+
+Joe's colors below
+
+#FEA83B orange
+6066F2 lightblue
+B286F8 purple
+4C44C1 blue
+E6CDF9 light purple
+ */
+
+.container {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.container-fluid {
+    margin: 0 3%;
+    padding: 0 20px;
+}
+
+.box-shadow-down{
+    -webkit-box-shadow: 9px 12px 8px -3px rgba(0,0,0,0.12);
+    -moz-box-shadow: 9px 12px 8px -3px rgba(0,0,0,0.12);
+    box-shadow: 9px 12px 8px -3px rgba(0,0,0,0.12);
+}
+
+.box-shadow-center{
+    -webkit-box-shadow: 0px 0px 40px -3px rgba(0,0,0,0.25);
+    -moz-box-shadow: 0px 0px 40px -3px rgba(0,0,0,0.25);
+   box-shadow: 0px 0px 40px -3px rgba(0,0,0,0.25);
+}
+ 
+input::placeholder {
+    color: rgb(213, 226, 234);
+}
+
+/* PC's : which is the default */
+/* @media only screen and (min-width: 1216px, max-width: 1407px) {
+    body {
+        background-color: ;
+    }
+} */
+
+/* Laptops */
+@media only screen and (max-width: 1215px) {
+   
+}
+/* Tablets */
+@media only screen and (max-width: 1023px) {
+   
+}
+/* Mobile */
+@media only screen and (max-width: 768px) {
+    
+}

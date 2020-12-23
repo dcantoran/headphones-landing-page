@@ -1,0 +1,195 @@
+#blueprint {
+    background: rgb(84, 79, 206);
+    padding: 170px 0;
+    color: white;
+}
+
+#blueprint .container:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#blueprint .left-side {
+    width: 55%;
+    float: left;
+}
+
+#blueprint .left-side img {
+    width: 100%;
+    margin-right: 30px;
+}
+
+/* ----------- Right Side ------------ */
+
+#blueprint .right-side {
+    width: 45%;
+    float: left;
+}
+
+#blueprint .right-side h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 70px;
+    margin-top: -45px;
+}
+
+#blueprint .right-side .info-box, #blueprint .right-side .info-box-2 {
+    padding: 0 0 80px;
+}
+
+#blueprint .right-side .info-box:after, #blueprint .right-side .info-box-2:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/* Below I might have to split to move words up */
+#blueprint .right-side .info-box .col-1, #blueprint .right-side .info-box-2 .col-1{
+    width: 40%;
+    float: left;
+    /* margin-bottom: 40px; */
+}
+
+#blueprint .right-side .info-box .col-1 .icon-container {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 2px solid white;
+    position: relative;
+    top: 10px;
+}
+/* Mic Box below*/
+#blueprint .right-side .info-box-2 .col-1 .icon-container {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 2px solid white;
+    position: relative;
+    bottom: 8px;
+}
+
+#blueprint .right-side .info-box .col-1 .icon-container .dashed-circle{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border: 2px dashed white;
+    margin: 0 auto;
+    top: 13px;
+    left: 13px;
+    position: absolute;
+}
+/* Mic Box below */
+#blueprint .right-side .info-box-2 .col-1 .icon-container .dashed-circle{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border: 2px dashed white;
+    margin: 0 auto;
+    top: 13px;
+    left: 13px;
+    position: absolute;
+}
+
+#blueprint .right-side .info-box .col-1 .icon-container .fab, #blueprint .right-side .info-box-2 .col-1 .icon-container .fas{
+    font-size: 4rem;
+    top: 26px;
+    left: 35px;
+    position: absolute;
+}
+
+#blueprint .right-side .info-box .col-2 {
+    width: 60%;
+    float: left;
+    /* margin-bottom: 10px; */
+}
+#blueprint .right-side .info-box-2 .col-2 {
+    width: 60%;
+    float: left;
+    /* margin-bottom: 30px; */
+}
+
+#blueprint .right-side .info-box .col-2 h3{
+    font-size: 1.5rem;
+    margin-top: 27px;
+    margin-bottom: 12px;
+    margin-left: -15px;
+}
+
+#blueprint .right-side .info-box-2 .col-2 h3{
+    font-size: 1.5rem;
+    margin-top: 3px;
+    margin-bottom: 12px;
+    margin-left: -15px;
+}
+
+#blueprint .right-side .info-box .col-2 p{
+    font-size: .85rem;
+    margin-bottom: 8px;
+    line-height: 1.75;
+    margin-left: -15px;
+}
+
+#blueprint .right-side .info-box-2 .col-2 p{
+    font-size: .85rem;
+    margin-bottom: 8px;
+    line-height: 1.75;
+    margin-left: -15px;
+}
+
+#blueprint .right-side .info-box .col-2 a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgb(251, 178, 75);
+    margin-bottom: 15px;
+    margin-left: -15px;
+    font-size: .8rem;
+}
+
+ #blueprint .right-side .info-box-2 .col-2 a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgb(251, 178, 75);
+    margin-bottom: 15px;
+    margin-left: -15px;
+    font-size: .8rem;
+}
+
+/* Laptops */
+@media only screen and (max-width: 1215px) {
+   
+}
+/* Tablets */
+@media only screen and (max-width: 1023px) {
+    #blueprint {
+        padding: 120px 0 18px;
+    }
+
+   #blueprint .left-side {
+        width: 50%;
+    }
+    #blueprint .right-side {
+        width: 50%;
+    }
+}
+/* Mobile */
+@media only screen and (max-width: 768px) {
+    #blueprint {
+        padding: 85px 0 40px;
+    }
+    #blueprint .left-side {
+        width: 100%;
+    }
+    #blueprint .right-side {
+        width: 100%;
+    }
+
+    #blueprint .right-side h1 {
+        text-align: center;
+        margin-bottom: 50px;
+        margin-top: 20px;
+    }
+
+    #blueprint .right-side .info-box, #blueprint .right-side .info-box-2 {
+        padding: 0 0 62px;
+    }
+}

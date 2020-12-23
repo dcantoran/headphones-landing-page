@@ -1,0 +1,83 @@
+/* ----------------------HEADER---------------------- */
+header {
+    padding: 30px 20px;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+header:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+header a {
+    color: #4C44C1;
+    text-decoration: none;
+}
+
+header .logo {
+    display: inline-block;
+    float: left;
+    margin-right: 28px;
+}
+
+header .logo img {
+    width: 30px;
+}
+
+header .menu {
+    display: inline-block;
+    float: left;
+    position: relative;
+    top: 9px;
+    font-size: 14px;
+}
+
+header .menu a {
+    text-transform: uppercase;
+    margin-right: 25px;
+}
+
+header .header-buttons {
+    display: inline-block;
+    float: right;
+}
+
+header .header-buttons .blue-btn {
+    background: rgb(97,	107, 238);;
+    padding: 12px 46px;
+    color: white;
+    border-radius: 30px;
+    text-transform: uppercase;
+    position: relative;
+    top: 9px;
+}
+
+header .header-buttons .blue-btn .fas {
+    margin-left: 15px;
+}
+
+header .header-buttons .orange-btn {
+    background: rgb(252, 167, 72) ;
+    padding: 12px 46px;
+    color: white;
+    border-radius: 30px;
+    text-transform: uppercase;
+    position: relative;
+    top: 9px;
+}
+
+/* Laptops */
+@media only screen and (max-width: 1215px) {
+   
+}
+/* Tablets */
+@media only screen and (max-width: 1023px) {
+   
+}
+/* Mobile */
+@media only screen and (max-width: 768px) {
+    
+}
