@@ -1,5 +1,5 @@
 #blueprint {
-    background: rgb(84, 79, 206);
+    background: rgb(102, 94, 238);
     padding: 170px 0;
     color: white;
 }
@@ -139,7 +139,7 @@
 #blueprint .right-side .info-box .col-2 a {
     text-transform: uppercase;
     text-decoration: none;
-    color: rgb(251, 178, 75);
+    color: rgb(250, 172, 100);
     margin-bottom: 15px;
     margin-left: -15px;
     font-size: .8rem;
@@ -148,7 +148,7 @@
  #blueprint .right-side .info-box-2 .col-2 a {
     text-transform: uppercase;
     text-decoration: none;
-    color: rgb(251, 178, 75);
+    color: rgb(250, 172, 100);
     margin-bottom: 15px;
     margin-left: -15px;
     font-size: .8rem;

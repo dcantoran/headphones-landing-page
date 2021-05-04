@@ -13,7 +13,7 @@
 }
 
 #latest .header h1 {
-    color: rgb(97, 107,238);
+    color: rgb(75, 87, 251);
     font-size: 3rem;
     max-width: 400px;
     width: 100%;
@@ -39,9 +39,9 @@
     float: left;
     padding: 20px 70px;
     font-size: 2.5rem;
-    background: rgb(97, 107,238);
+    background: rgb(75, 87, 251);
     color: white;
-    border: 1px solid rgb(97, 107,238);
+    border: 1px solid rgb(75, 87, 251);
 }
 
 #latest .header .directions .move-right {
@@ -238,7 +238,7 @@ background: linear-gradient(-120deg, #2f36ef 0%,#ff7130 50%,#f7ee6c 100%); /* W3
 }
 
 #latest .footer .info-box h1 {
-    color: rgb(97, 107,238);
+    color: rgb(75, 87, 251);
     font-size: 2.8rem;
     font-weight: 900;
     margin-bottom: 40px;
@@ -294,7 +294,7 @@ background: linear-gradient(-120deg, #2f36ef 0%,#ff7130 50%,#f7ee6c 100%); /* W3
 }
 
 #latest .footer .info-box .input-area button {
-    background: rgb(97, 107,238);
+    background: rgb(75, 87, 251);
     padding: 20px 50px;
     color: white;
     text-transform: uppercase;

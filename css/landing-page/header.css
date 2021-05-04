@@ -13,7 +13,7 @@ header:after {
 }
 
 header a {
-    color: #4C44C1;
+    color: #21215a;
     text-decoration: none;
 }
 
@@ -46,7 +46,7 @@ header .header-buttons {
 }
 
 header .header-buttons .blue-btn {
-    background: rgb(97,	107, 238);;
+    background: #3838e7;
     padding: 12px 46px;
     color: white;
     border-radius: 30px;
@@ -60,7 +60,7 @@ header .header-buttons .blue-btn .fas {
 }
 
 header .header-buttons .orange-btn {
-    background: rgb(252, 167, 72) ;
+    background: rgb(255, 94, 0);
     padding: 12px 46px;
     color: white;
     border-radius: 30px;

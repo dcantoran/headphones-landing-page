@@ -12,7 +12,7 @@
 
 #design-by .design-container .bg-container {
     position: relative;
-    background: rgb(98, 91, 232);
+    background: rgb(74, 71, 128);
     overflow: hidden;
     padding: 45px;
 }
@@ -38,7 +38,7 @@
 }
 
 #design-by .design-container .info-section h5{
-    color: rgb(253, 171, 70);
+    color: rgb(253, 152, 27);
     font-size: 1.2rem;
     text-transform: uppercase;
     margin-bottom: 2rem;
@@ -69,9 +69,9 @@
 }
 
 #design-by .design-container .info-section .info-list span{
-    color: rgb(253, 171, 70);
+    color: rgb(253, 152, 27);
     display: inline-block;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     background: white;
     border-radius: 50%;
     position: relative;
@@ -85,7 +85,7 @@
     border-radius: 50px;
     padding: 14px 50px;
     text-decoration: none;
-    color: #6066F2;
+    color: #3838e7;
     font-weight: 700;
     font-size: .8rem;
     text-transform: uppercase;
@@ -118,7 +118,7 @@
 
 #design-by .design-container .icon-section .refresh-circle .fas{
     position: relative;
-    color: rgb(253, 171, 70);
+    color: rgb(253, 152, 27);
     font-size: 1.5rem;
     top: 13px;
     left: 13px;
@@ -131,7 +131,7 @@
     float: left;
     text-align: center;
     border: 1px solid rgb(241, 246, 248);
-    color: rgb(98, 91, 232);
+    color: rgb(46, 37, 223);
     font-size: 1rem;
     text-transform: uppercase;
 }
