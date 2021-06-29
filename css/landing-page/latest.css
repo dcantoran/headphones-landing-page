@@ -346,9 +346,16 @@ background: linear-gradient(-120deg, #2f36ef 0%,#ff7130 50%,#f7ee6c 100%); /* W3
 
     #latest .footer .info-box .input-area:nth-child(1) input {
         position: relative;
-        top: -8px;
+        top: 18px;
         padding: 0 0px;
-        left: 55px;
+        left: -8px;
+        font-size: .9rem;
+    }
+    #latest .footer .info-box .input-area:nth-child(2) input {
+        position: relative;
+        top: 7px;
+        padding: 0 0px;
+        left: 10px;
         font-size: .9rem;
     }
 
@@ -378,7 +385,28 @@ background: linear-gradient(-120deg, #2f36ef 0%,#ff7130 50%,#f7ee6c 100%); /* W3
         width: 46%;
         margin: 0;
     }
+}
 
+@media only screen and (max-width: 960px) {
+    #latest .footer .info-box .input-area:nth-child(1) input {
+        left: 5px;
+    }
+}
+@media only screen and (max-width: 900px) {
+    #latest .footer .info-box .input-area:nth-child(1) input {
+        left: 15px;
+    }
+}
+@media only screen and (max-width: 840px) {
+    #latest .footer .info-box .input-area:nth-child(1) input {
+        left: 25px;
+    }
+}
+@media only screen and (max-width: 828px) {
+    #latest .footer .info-box .input-area:nth-child(1) input {
+        top: -8px;
+        left: 40px;
+    }
 }
 /* Mobile */
 @media only screen and (max-width: 768px) {
@@ -420,7 +448,13 @@ background: linear-gradient(-120deg, #2f36ef 0%,#ff7130 50%,#f7ee6c 100%); /* W3
         position: relative;
         top: 20px;
         padding: 0 8px;
-        left: -17%;
+        left: -18%;
+    }
+    #latest .footer .info-box .input-area:nth-child(2) input {
+        /* position: relative; */
+        /* top: 20px; */
+        padding: 0 8px;
+        left: 8%;
     }
 
     #latest .footer .info-box .input-area:nth-child(1) .fas {
@@ -430,7 +464,7 @@ background: linear-gradient(-120deg, #2f36ef 0%,#ff7130 50%,#f7ee6c 100%); /* W3
 
     #latest .footer .info-box .input-area .fas.fa-envelope {
         top: 1px;
-        left: -15px;
+        left: 5px;
     }
 
     #latest .footer .info-box .input-area button {
@@ -439,6 +473,23 @@ background: linear-gradient(-120deg, #2f36ef 0%,#ff7130 50%,#f7ee6c 100%); /* W3
         float: right;
     }
     
+}
+
+@media only screen and (max-width: 760px){
+    #latest .footer .info-box .input-area:nth-child(1) input {
+        left: -8%;
+    }
+    #latest .footer .info-box .input-area:nth-child(2) input {
+        left: 8%;
+    }
+}
+@media only screen and (max-width: 600px){
+    #latest .footer .info-box .input-area:nth-child(1) input {
+        left: 1%;
+    }
+    #latest .footer .info-box .input-area:nth-child(2) input {
+        left: 8%;
+    }
 }
 
 /* @media only screen and (max-width: 400px) {

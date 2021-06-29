@@ -73,11 +73,72 @@ header .header-buttons .orange-btn {
 @media only screen and (max-width: 1215px) {
    
 }
+
+@media only screen and (min-width: 1024px) {
+    #check, .checkBtn {
+        display: none;
+    }
+}
 /* Tablets */
 @media only screen and (max-width: 1023px) {
-   
+    header .logo {
+        display: none;
+    }
+    .menu {
+        border-top: none;
+        flex: none !important;
+    }
+    .menu {
+        /* right: 20px !important; */
+        position: fixed !important;
+        width: 100% !important;
+        height: 100vh;
+        background: #7786c7;
+        top: 80px !important;
+        left: -110% !important;
+        text-align: center;
+        z-index: 1;
+        transition: all .5s;
+    }
+    .menu a {
+        display: block !important;
+        line-height: 60px !important;
+        margin: 50px 0px;
+        padding-right: 0 !important;
+        color: rgb(255, 255, 255);
+    }
+    .menu a {
+        font-size: 18px !important;
+    }
+    .menu a:hover {
+        background: none !important;
+        color: rgb(29, 59, 104) !important;
+    }
+    .checkBtn {
+        font-size: 35px;
+        color: rgb(125, 118, 221);
+        float: left;
+        line-height: 0px;
+        margin-right: 40px;
+        cursor: pointer;
+        z-index: 10;
+    }
+    #check {
+        display: none;
+    }
+    #check:checked ~ .menu {
+        left: 0 !important;
+    }
 }
 /* Mobile */
 @media only screen and (max-width: 768px) {
-    
+    .checkBtn {
+        font-size: 30px;
+    }
+    header .header-buttons .blue-btn {
+        padding: 8px 28px;
+    }
+    header .header-buttons .orange-btn {
+        padding: 8px 28px;
+    }
 }
